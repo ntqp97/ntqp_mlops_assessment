@@ -24,7 +24,7 @@ class ONNXModel:
 
 
 class ImagePreprocessor:
-    def __init__(self, input_size):
+    def __init__(self, input_size=(224, 224)):
         """
         Initialize image preprocessor with the input size of the model
         """
