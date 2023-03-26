@@ -4,7 +4,7 @@ from PIL import Image
 
 
 class ONNXModel:
-    def __init__(self, model_path='pytorch_model_weights.onnx'):
+    def __init__(self, model_path='./models/pytorch_model_weights.onnx'):
         """
         Initialize ONNX model by loading the model with the provided file path
         """
